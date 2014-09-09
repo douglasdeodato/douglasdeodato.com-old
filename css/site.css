@@ -1,20 +1,18 @@
-.background {
-	
-	background-color:#f0efed;
-	overflow-x: hidden;
-	
+body {
+  background-color:#f0efed;
+  /*
+   * 100% = 16px  browsers default
+   * 21px ÷ 16px = 1.5em
+   */
+  font: normal normal 100%/1.5em "cabin", sans-serif;
+  color: #263640;
 }
+
 
 @media screen and (min-width: 320px) {
 	
 	
-/*
-.background {
-	background:url(../img/1280.jpg)  no-repeat left top;
-	background-color:#f0efed;
-	overflow-x: hidden;
-	
-}*/
+
 
 /*.center
 			{
@@ -127,11 +125,6 @@ color:#fff;
 
 @media screen and (min-width: 480px) {
 
-/*.background {
-	background:url(../img/1280.jpg)  no-repeat left top;
-	background-color:#fff;
-	
-}*/
 
 .center
 			{
@@ -246,12 +239,7 @@ color:#fff;
 
 @media screen and (min-width: 768px) {
 
-/*.background {
-	background:url(../img/1280.jpg)  no-repeat left top;
-	background-color:#fff;
-	
-}
-*/
+
 .center
 			{
 			width:940px; 
@@ -365,33 +353,19 @@ color:#fff;
 
 @media screen and (min-width: 800px) {
 
-/*.background {
-	background:url(../img/1280.jpg)  no-repeat left top;
-	background-color:#fff;
-	
-}*/
+
 
 }
 
 
 @media screen and (min-width: 980px) {
 
-/*.background {
-	background:url(../img/980.jpg)  no-repeat left top;
-	background-color:#fff;
-	
-}*/
+
 
 }
 
 @media screen and (min-width: 1024px) {
 
-/*.background {
-	background:url(../img/1280.jpg)  no-repeat left top;
-	background-color:#fff;
-	
-	
-}*/
 
 .center
 			{
@@ -503,12 +477,7 @@ color:#fff;
 
 @media screen and (min-width: 1280px) {
 
-/*.background {
-	background:url(../img/1280.jpg)  no-repeat left top;
-	background-color:#fff;
-	
-	
-}*/
+
 .center
 			{
 			width:940px; 
