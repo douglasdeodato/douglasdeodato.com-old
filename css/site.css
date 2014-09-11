@@ -147,12 +147,14 @@ h2 ~ h2 {
 
 .menu {
   background-color: #659ec2;
+  color: #fff;
 }	
 
 .menu ul {
   margin: 0; 
   padding: 0;
   float: left;
+  background-color: #659ec2;
 }
  
 .menu ul li {
@@ -162,16 +164,15 @@ h2 ~ h2 {
 .menu ul li a { 
   float: left; text-decoration: none;
   color: white;
-  padding: 10.5px 11px;
-  background-color: #659ec2; 
+  padding: 10.5px 11px; 
 }
 
-.menu ul li a:visited {
+/*.menu ul li a:visited {
   color: white;
-}
+}*/
 
 .menu ul li a:hover, .menu ul li .current {
-  color: #fff;
+  
   background-color:#3c81ad;
 }
 
@@ -191,6 +192,9 @@ h2 ~ h2 {
   		width: 100%; 
   		margin: 20px 0 0 0 ;
 	}
+
+	
+
 } /*/mediaquery*/
 
 @media screen and (max-width: 767px) { 
@@ -203,6 +207,35 @@ h2 ~ h2 {
   		float: right;
   		width: 100%; 
   		margin: 20px 0 0 0 ;
+	}
+	h2 {
+	    font-weight: bold;
+	    font-size:3.125em;
+	    color: #fc8f76;
+	    
+	}
+	aside ul {
+		font-size:1.4375em;
+		line-height: 1.285714286em;
+	}
+	.menu{
+   		background-color: #000; 
+   	}
+
+    .menu ul {
+	    background-color: #000;
+	}
+
+	.menu ul li a:hover, .menu ul li .current {
+  		background-color:#fc8f76;
+	}
+
+	#site-header h1 a:link, a:visited, a:hover, a:active {
+ 		color: #fc8f76;
+	}
+
+	.footer {    
+	    background-color:#000;  
 	}
 
 } /*/mediaquery*/
