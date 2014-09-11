@@ -180,39 +180,18 @@ h2 ~ h2 {
 *  Media Query » screen equal or less than 480px
 *******************************************************************************/
 
-@media screen and (max-width: 480px) {
-	.alignleft {
-  		float: left;
-  		width: 50%;
-  		display: none;
-	}
-
-	.side-content {
-  		float: right;
-  		width: 100%; 
-  		margin: 20px 0 0 0 ;
-	}
-
-	
-
-} /*/mediaquery*/
+@media screen and (max-width: 480px) {} /*/mediaquery*/
 
 @media screen and (max-width: 767px) { 
 	.alignleft {
-  		float: left;
-  		width: 50%;
   		display: none;
 	}
 	.side-content {
-  		float: right;
   		width: 100%; 
-  		margin: 20px 0 0 0 ;
 	}
 	h2 {
-	    font-weight: bold;
 	    font-size:3.125em;
-	    color: #fc8f76;
-	    
+	    color: #fc8f76; 
 	}
 	aside ul {
 		font-size:1.4375em;
