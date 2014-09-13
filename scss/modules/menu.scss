@@ -1,34 +1,27 @@
 /*********************************************************************
-*  =menu
-*********************************************************************/
+/*  =menu
+/*********************************************************************/
+// get your color
+// http://chir.ag/projects/name-that-color/#6195ED 
+// https://github.com/RichardBray/color-me-sass 
+
+$fountain-blue: #659ec2;
+$boston-blue: #3c81ad;
+$white:#ffffff;
 
 .menu {
-  background-color: #659ec2;
-  color: #fff;
-}	
+    background-color: $fountain-blue;
+    color: $white;
 
-.menu ul {
-  margin: 0; 
-  padding: 0;
-  float: left;
-  background-color: #659ec2;
-}
- 
-.menu ul li {
-  display: inline;
-}
- 
-.menu ul li a { 
-  float: left; text-decoration: none;
-  color: white;
-  padding: 10.5px 11px; 
-}
+  a {
+    float: left; 
+    text-decoration: none;
+    color: $white;
+    padding: 10px 10px; 
+  }
 
-/*.menu ul li a:visited {
-  color: white;
-}*/
+  a:hover {
+    background-color:$boston-blue;
+  }
 
-.menu ul li a:hover, .menu ul li .current {
-  
-  background-color:#3c81ad;
 }
