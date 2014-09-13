@@ -1,0 +1,27 @@
+/*********************************************************************
+*  =menu
+*********************************************************************/
+.menu {
+  background-color: #659ec2;
+  color: #fff; }
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  background-color: #659ec2; }
+
+.menu ul li {
+  display: inline; }
+
+.menu ul li a {
+  float: left;
+  text-decoration: none;
+  color: white;
+  padding: 10.5px 11px; }
+
+/*.menu ul li a:visited {
+  color: white;
+}*/
+.menu ul li a:hover, .menu ul li .current {
+  background-color: #3c81ad; }

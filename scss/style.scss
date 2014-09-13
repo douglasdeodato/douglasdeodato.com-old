@@ -5,13 +5,19 @@
 @import "vendor/main";
 
 // Load helpers
+@import "helpers/clearfix";
 
-// Load core
-@import "core/reset";
-
-
-// Load core files
+// Load modules files
+@import "modules/header";
+@import "modules/menu";
 
 
 // Load all pages
 @import "pages/index";
+
+// Load core
+@import "core/reset";
+@import "core/typography";
+@import "core/layout";
+@import "core/base";
+@import "core/media-query";
