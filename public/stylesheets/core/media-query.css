@@ -25,13 +25,17 @@
     background-color: #000; }
 
   .menu ul li a:hover, .menu ul li .current {
-    background-color: #fc8f76; }
+    background-color: #fc8f76;
+    color: white; }
 
   #site-header h1 a:link, a:visited, a:hover, a:active {
     color: #fc8f76; }
 
   .footer {
-    background-color: #000; } }
+    padding: 2%;
+    background-color: #000; }
+    .footer a:hover {
+      color: white; } }
 /*/mediaquery*/
 @media screen and (max-width: 840px) {
   .alignleft img {
